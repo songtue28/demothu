@@ -1,3 +1,4 @@
+// cout<<songtue;
 //cout<<thanhnga; 
 #include<iostream>
 using namespace std;
