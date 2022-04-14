@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-//cout<<thanhnga1;
-=======
 //cout<<thanh nga;
->>>>>>> nga
 #include<iostream>
 using namespace std;
 struct Node{
