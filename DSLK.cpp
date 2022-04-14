@@ -1,3 +1,4 @@
+//cout<<thanh nga;
 #include<iostream>
 using namespace std;
 struct Node{
