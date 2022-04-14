@@ -1,3 +1,4 @@
+//cout<<ngapullquamain;
 //cout<<thanh nga;
 #include<iostream>
 using namespace std;
