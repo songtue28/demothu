@@ -1,0 +1,68 @@
+$ git clone http......//tải về
+$ cd [tên project]
+$ git status
+	//chữ màu đỏ là mới tạo mới chưa có push lên
+	//nếu muốn ẩn file nào thì tạo 1 file notepad ghi tên file đó vào và lưu dưới tên .gitignore
+$ git add .
+	//nếu muốn thêm tất cả các file mới thì để . còn thêm từng file thì .[tên file]
+$git status
+	//chữ màu xanh lấu dc giữ liệu tất cả các file
+$ git commit -m"ghi gì cx dc"
+ đăng nhập nếu có
+$ git push
+$ git status
+$ git commit -m"ghi gì cx dc"
+$ git push
+-----------kiểm tra lại---------------------
+-------tạo branchs----------------------
+$ git branch
+	//kiểm tra có bao nhiêu branch và đang ở branch nào
+$ git branch [tên branch mới]
+$ git checkout [tên branch mới]
+	//chuyển qua brach mới
+	//thay đổi gì đó đẩy lên lại để thấy brach mới làm việc
+$ git status
+$ git add .
+$ git commit -m""
+$ git push
+$ git push origin [tên branch mới]
+---------------------------------------
+	nếu muốn quay lại branch master
+		$ git checkout master
+---------ap từ new branch sang master----------------
+click vào Pull requests
+	new pull requests
+	base: master <- compare: branch 
+Create pull request
+	merge pull request
+	comfirm merge
+------kiểm tra lại----------------------
+
+----2 branch xung đột----------
+	thay đổi ở branch master
+$ git checkout master
+	// chuyển về branch master
+$ git pull
+	// pull tất cả code về
+$ git status //đang ở branch master
+$ git add .
+$ git status
+$ git commit -m''
+$ git push origin master
+	thay đổi ở new branch
+$ git checkout [new branch]
+$ git stastus
+$ git add .
+$ git status
+$ git commit -m''
+$ git push origin [new branch]
+ 	click creater pull request 
+$ git checkout master
+$ git merge [new branch]
+$ git status
+$ gti add .
+$ git commit -m''
+$ git push origin master
+
+
+

@@ -1,0 +1,13 @@
+git init
+git clone
+git status
+git add .
+git commit -m "trong nay là ghichu"
+git push
+git push -u origin [main/tennhánh]
+
+
+git branch kiểm tra số nhánh
+git branch [new-branch] tao nhanh
+git checkout [new_branch] chuyển nhánh
+git push -u origin [branch]
